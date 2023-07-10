@@ -1,16 +1,5 @@
-{{
-  config(
-    materialized='table',
-    destination_table='gaboviu.gabo'
-  )
-}}
 
-INSERT INTO `gaboviu.gabo` (
-  item,
-  txt
-)
-SELECT
-  2 AS item,
-  'mundo' AS txt;
-
+INSERT INTO gaboviu.gabo.gabo (item, txt)
+SELECT 2 as item
+'mundo' as txt 
 
