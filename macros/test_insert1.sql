@@ -2,12 +2,12 @@
 
   {% do run_query(
     "INSERT INTO gaboviu.gabo.gabo (item, txt) 
-    VALUES (1, 'hola');"
+    VALUES (5, 'gabo');"
     ) %}
   
   {% do run_query(
     "INSERT INTO gaboviu.gabo.gabo (item, txt) 
-    VALUES (2, 'mundo');"
+    VALUES (6, 'cheto');"
     ) %}
 
 {% endmacro %}
